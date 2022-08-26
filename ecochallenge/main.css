@@ -1,0 +1,96 @@
+@import url(https://fonts.bunny.net/css?family=ubuntu:300,400,300i,400i);
+
+body {
+  width: 100%;
+  font-family: ubuntu;
+}
+
+.title {
+  text-align: center;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;  
+}
+
+.toolbar h2 {
+  margin: 5px;
+}
+
+.menu {
+  background-image: url(img/recycle-recycling-concept-cartoon.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  padding-top: 200px;
+}
+
+.menu p {
+  text-align: center;
+  font-size: 14pt;
+  text-shadow: #fff 1px 0 15px;
+}
+
+.menuitems {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;  
+}
+
+.menuitem {
+  font-size: 16px;
+  width: 200px;
+  margin: 5px;
+  background-color: greenyellow;
+}
+
+#endscore {
+  text-align: center;
+  text-shadow: #fff 1px 0 15px;
+}
+
+.question {
+  margin: auto;
+  width: 80%;
+}
+
+.question h2 {
+  text-align: center;
+}
+
+.question .image {
+  margin: auto;
+  width: 50%;
+}
+
+.question img {
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;  
+}
+
+.actions button {
+  font-size: 16px;
+  width: 200px;
+  margin: 5px;
+  background-color: greenyellow;
+}
+
+.actions button:hover {
+  font-size: 16px;
+  width: 200px;
+  margin: 5px;
+  background-color: cyan;
+  cursor: pointer;
+}
